@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    /* background-image: url("image/logo/logo-1r-exp.png"); */
+}
+
+.navBar{
+    height: 90px;
+    background-color: #0f1110;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 100%;
+    width: 210px;
+    margin-left: 10px;
+}
+.logo{
+    background-image: url("image/logo/flogo.png");
+    background-size: cover;
+    height: 90px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transperant;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/** box-2: delivery box **/
+.p1-font{
+    font-size: 0.7rem;
+    color: rgb(213, 235, 255);
+    margin-left: 15px;
+}
+.p2-font{
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+/** box-3: search box **/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f0f027;
+    width: 470px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: rgb(212, 252, 252);
+    width: 50;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1110;
+}
+.nav-search:hover{
+    border: 2px solid rgb(147, 252, 252);
+}
+/** box-5: sign-in box **/
+span{
+    font-size:0.7rem ;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** box-6: cart box **/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** box-1 Second header **/
+.panel{
+    height: 40px;
+    background-color: #222f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/** oye hero hero !**/
+.hero-hero{
+    background-image: url("image/logo/canba.png");
+    background-size: cover;
+    height: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;   
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: rgba(16, 104, 204, 0.705);
+    text-decoration: none;
+}
+/** contents **/
+.shopp{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(245, 248, 233);
+}
+.box{
+    height: 800px;
+    width: 400px;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}                  
+.box-img{
+    height: 570px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
